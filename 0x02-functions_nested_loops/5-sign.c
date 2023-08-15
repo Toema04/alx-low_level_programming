@@ -20,11 +20,11 @@ int print_sing(int n)
 	else if (n == 0)
 	{
 		_putchar(48);
-                return (0);
+		return (0);
 	}
 	else
 	{
 		_putchar(45);
-                return (-1);
+		return (-1);
 	}
 }
