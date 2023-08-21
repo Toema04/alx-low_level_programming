@@ -15,7 +15,6 @@ void rev_string(char *s)
 
 	/*find staring length without null char*/
 	for (l = 0; s[l] != '\0'; ++1)
-		;
 
 
 	/*swap the string by looping to half the string*/
