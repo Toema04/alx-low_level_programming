@@ -13,8 +13,8 @@ void rev_string(char *s)
 	int l, i;
 	char temp;
 
-	/*find string length without null char*/
-	for (l = 0; s[l] != '\0'; 1++)
+	/*find staring length without null char*/
+	for (l = 0; s[l] != '\0'; ++1)
 		;
 
 
