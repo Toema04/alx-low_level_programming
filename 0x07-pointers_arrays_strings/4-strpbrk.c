@@ -10,7 +10,6 @@
 char *_strpbrk(char *s, char *accept)
 {
 	int itr, jtr;
-
 	char *p;
 
 	itr = 0;
@@ -26,7 +25,7 @@ char *_strpbrk(char *s, char *accept)
 			}
 			jtr++;
 		}
-		jtr++;
+		itr++;
 	}
 
 	return (0);
