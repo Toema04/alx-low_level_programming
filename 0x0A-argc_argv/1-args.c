@@ -1,9 +1,16 @@
 #include <stdio.h>
 
+/**
+ * main - prints the number of argc
+ * @argc: argument count
+ * @argv: argment vector
+ *
+ * Return: Always 0
+*/
 
-int me(int argc, int const **argv)
+int main(int argc, char **argv)
 {
-	(void)argc;
-	printf("%d\n", argv[0]);
+	(void)argv;
+	printf("%d\n", argc - 1);
 	return (0);
 }
