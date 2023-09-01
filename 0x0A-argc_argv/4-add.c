@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -18,7 +19,7 @@ int main(int argc, char *argv[])
 
 	if (argc > 1)
 	{
-		for (1 = 1; i < argc; i++)
+		for (i = 1; i < argc; i++)
 		{
 			e = argv[i];
 
