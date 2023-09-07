@@ -38,7 +38,7 @@ char *string_nconcat(car *s1, char *s2, unsigned int n)
 
 	for (j = 0; j < n; j++)
 	{
-		str[i] = str[j];
+		str[i] = s2[j];
 		i++;
 	}
 
