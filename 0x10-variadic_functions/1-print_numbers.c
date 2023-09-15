@@ -8,7 +8,7 @@
  *
  * Return: void
 */
-void print_number(const char *separato, const unsigned int n, ...)
+void print_number(const char *separator, const unsigned int n, ...)
 {
 	int i = n;
 	va_list ap;
@@ -21,6 +21,6 @@ void print_number(const char *separato, const unsigned int n, ...)
 	va_start(ap, n);
 	while (i--)
 		printf("%d%s", va_arg(ap, int),
-			i ? (separato ? separato : "") : "\n");
+			i ? (separator ? separator : "") : "\n");
 	va_end(ap);
 }
