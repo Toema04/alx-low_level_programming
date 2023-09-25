@@ -1,11 +1,10 @@
 #include "lists.h"
 
 /**
- * get_nodeint_at_index - returns node at index
+ * sum_listint - returns sum of all data
  * @head: pointer to first node
- * @index: index of node to get
  *
- * Return: pointer to node
+ * Return: sum
 */
 int sum_listint(listint_t *head)
 {
@@ -16,5 +15,5 @@ int sum_listint(listint_t *head)
 		sum += head->n;
 		head = head->next;
 	}
-	return (sum);	;
+	return (sum);
 }
