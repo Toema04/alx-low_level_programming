@@ -54,7 +54,7 @@ int _atoi(const char *s)
 void print_int(unsigned long int n)
 {
 
-	unsigned long int divisor = 1, i, resp;
+	unsigned  long int divisor = 1, i, resp;
 
 		for (i = 0; n / divisor > 9; i++, divisor *= 10)
 		;
@@ -88,4 +88,4 @@ int main(int argc, char const *argv[])
 		_puthcar('\n');
 
 		return (0);
-	}
+}
