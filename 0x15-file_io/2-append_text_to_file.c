@@ -16,7 +16,7 @@ int _strlen(char *s)
 	while (*s++)
 		i++;
 	return (i);
-} 
+}
 
 /**
  * append_text_to_file - appends text to a file
@@ -38,5 +38,5 @@ int append_text_to_file(const char *filename, char *text_content)
 	if (len)
 		bytes = write(fd, text_content, len);
 	close(fd);
-	return (bytes == len ? 1 : -1); 
+	return (bytes == len ? 1 : -1);
 }
